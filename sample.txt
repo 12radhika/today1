@@ -8,3 +8,5 @@ spec:
       image: nginx
       port: 80
       protocal: https
+      ports:80:80
+
