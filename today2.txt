@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "my name is radhika $1"
+echo "my father name is GCVR"
