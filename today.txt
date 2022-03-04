@@ -1,6 +1,6 @@
 #!/bin/bash
-
-#example of using arguments to a script
-echo "my first name is $1"
+echo "my name is $1"
 echo "mysurname is $2"
-echo "total numbet of arguments is $#"
+echo "Total nubmer of arguments is $#"
+
+
