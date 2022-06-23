@@ -1,3 +1,4 @@
 FROM openjdk
 MAINTAINER radhika
-ADD target/
+ADD target/mavenproject 
+CMD ["mavenproject"]
