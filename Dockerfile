@@ -1,4 +1,6 @@
-FROM openjdk
+FROM openjdk:8
 MAINTAINER radhika
-ADD target/mavenproject 
-CMD ["mavenproject"]
+ARG JAR_FILE=target/chandu-1.0-SNAPSHOT.jar
+ADD ${JAR_FILE} chandu-1.0-SNAPSHOT.jar
+CMD ["java","jar","/SNAPSHOT.jar"]
+EXPOSE 8080
